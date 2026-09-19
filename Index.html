@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <base target="_top">
+
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>BP3MNU MAZRA'ATUL ULUM</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icon -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <?!= include('Style'); ?>
+</head>
+
+<body>
+
+  <!-- =====================================================
+       APP WRAPPER
+  ====================================================== -->
+  <div class="app-wrapper">
+
+    <!-- ===================================================
+         HEADER
+    ==================================================== -->
+    <header class="main-header" id="mainHeader">
+
+      <div class="header-container">
+
+        <!-- Logo -->
+        <a href="#beranda" class="brand">
+
+          <div class="brand-logo">
+            <i class="fa-solid fa-school"></i>
+          </div>
+
+          <div class="brand-text">
+            <strong>BP3MNU</strong>
+            <span>MAZRA'ATUL ULUM</span>
+            <small>Berilmu • Berakhlak • Berprestasi</small>
+          </div>
+
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+
+          <a href="#beranda" class="nav-link active">
+            Beranda
+          </a>
+
+          <a href="#profil" class="nav-link">
+            Profil
+          </a>
+
+          <a href="#pendidikan" class="nav-link">
+            Pendidikan
+          </a>
+
+          <a href="#berita" class="nav-link">
+            Berita
+          </a>
+
+          <a href="#ppdb" class="nav-link">
+            PPDB
+          </a>
+
+          <a href="#galeri" class="nav-link">
+            Galeri
+          </a>
+
+          <a href="#kontak" class="nav-link">
+            Kontak
+          </a>
+
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="header-actions">
+
+          <button class="icon-button" aria-label="Pencarian">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+          <button class="icon-button notification-button"
+                  aria-label="Notifikasi">
+
+            <i class="fa-regular fa-bell"></i>
+
+            <span class="notification-dot"></span>
+
+          </button>
+
+          <button class="mobile-menu-button"
+                  id="mobileMenuButton"
+                  aria-label="Menu">
+
+            <i class="fa-solid fa-bars"></i>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </header>
+
+
+    <!-- ===================================================
+         MOBILE MENU
+    ==================================================== -->
+    <div class="mobile-menu" id="mobileMenu">
+
+      <div class="mobile-menu-inner">
+
+        <a href="#beranda">
+          <i class="fa-solid fa-house"></i>
+          <span>Beranda</span>
+        </a>
+
+        <a href="#profil">
+          <i class="fa-solid fa-school"></i>
+          <span>Profil Sekolah</span>
+        </a>
+
+        <a href="#pendidikan">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>Pendidikan</span>
+        </a>
+
+        <a href="#berita">
+          <i class="fa-regular fa-newspaper"></i>
+          <span>Berita & Kegiatan</span>
+        </a>
+
+        <a href="#ppdb">
+          <i class="fa-solid fa-user-plus"></i>
+          <span>PPDB Online</span>
+        </a>
+
+        <a href="#galeri">
+          <i class="fa-regular fa-images"></i>
+          <span>Galeri</span>
+        </a>
+
+        <a href="#kontak">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Kontak</span>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- ===================================================
+         MAIN CONTENT
+    ==================================================== -->
+    <main>
+
+
+      <!-- =================================================
+           HERO
+      ================================================== -->
+      <section class="hero-section" id="beranda">
+
+        <div class="container">
+
+          <div class="hero-card">
+
+            <!-- Hero Content -->
+            <div class="hero-content">
+
+              <div class="hero-label">
+                <i class="fa-solid fa-school"></i>
+                Selamat Datang di
+              </div>
+
+              <h1>
+                BP3MNU
+                <br>
+                MAZRA'ATUL ULUM
+              </h1>
+
+              <p>
+                Membangun Generasi Berilmu,
+                Berakhlak dan Berprestasi.
+              </p>
+
+              <div class="hero-buttons">
+
+                <a href="#profil" class="btn btn-primary">
+                  <i class="fa-solid fa-building-columns"></i>
+                  Profil Sekolah
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#ppdb" class="btn btn-light">
+                  <i class="fa-solid fa-user-plus"></i>
+                  PPDB Online
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <!-- Hero Image -->
+            <div class="hero-image">
+
+              <div class="hero-image-placeholder">
+                <i class="fa-solid fa-school"></i>
+                <span>Foto Sekolah / Siswa</span>
+              </div>
+
+            </div>
+
+
+            <!-- Slider Dots -->
+            <div class="hero-dots">
+
+              <button class="hero-dot active"></button>
+              <button class="hero-dot"></button>
+              <button class="hero-dot"></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           STATISTICS
+      ================================================== -->
+      <section class="statistics-section">
+
+        <div class="container">
+
+          <div class="statistics-grid">
+
+            <div class="stat-card">
+
+              <div class="stat-icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+
+              <strong>1.250</strong>
+              <span>Siswa</span>
+
+            </div>
+
+
+            <div class="stat-card">
+
+              <div class="stat-icon">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </div>
+
+              <strong>86</strong>
+              <span>Guru & Tendik</span>
+
+            </div>
+
+
+            <div class="stat-card">
+
+              <div class="stat-icon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+
+              <strong>42</strong>
+              <span>Prestasi</span>
+
+            </div>
+
+
+            <div class="stat-card">
+
+              <div class="stat-icon">
+                <i class="fa-regular fa-calendar"></i>
+              </div>
+
+              <strong>18</strong>
+              <span>Tahun Berdiri</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           LAYANAN SEKOLAH
+      ================================================== -->
+      <section class="services-section" id="layanan">
+
+        <div class="container">
+
+          <div class="section-heading">
+
+            <div>
+              <span class="section-kicker">
+                <i class="fa-solid fa-grid-2"></i>
+                Layanan
+              </span>
+
+              <h2>Layanan Sekolah</h2>
+            </div>
+
+            <a href="#" class="section-link">
+              Semua Layanan
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+
+          <div class="services-grid">
+
+            <a href="#profil" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-school"></i>
+              </div>
+              <span>Profil Sekolah</span>
+            </a>
+
+
+            <a href="#" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-user-graduate"></i>
+              </div>
+              <span>Data Siswa</span>
+            </a>
+
+
+            <a href="#" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </div>
+              <span>Guru & Tendik</span>
+            </a>
+
+
+            <a href="#pendidikan" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-book-open"></i>
+              </div>
+              <span>Akademik</span>
+            </a>
+
+
+            <a href="#ppdb" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-file-signature"></i>
+              </div>
+              <span>PPDB</span>
+            </a>
+
+
+            <a href="#" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <span>Pengumuman</span>
+            </a>
+
+
+            <a href="#" class="service-card">
+              <div class="service-icon">
+                <i class="fa-regular fa-calendar-days"></i>
+              </div>
+              <span>Agenda</span>
+            </a>
+
+
+            <a href="#" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <span>Prestasi</span>
+            </a>
+
+
+            <a href="#galeri" class="service-card">
+              <div class="service-icon">
+                <i class="fa-regular fa-images"></i>
+              </div>
+              <span>Galeri</span>
+            </a>
+
+
+            <a href="#" class="service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-file-lines"></i>
+              </div>
+              <span>Layanan Surat</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           UNIT PENDIDIKAN
+      ================================================== -->
+      <section class="education-section" id="pendidikan">
+
+        <div class="container">
+
+          <div class="section-heading">
+
+            <div>
+              <span class="section-kicker">
+                <i class="fa-solid fa-graduation-cap"></i>
+                Pendidikan
+              </span>
+
+              <h2>Unit Pendidikan</h2>
+            </div>
+
+            <a href="#" class="section-link">
+              Lihat Semua
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+
+          <div class="education-grid">
+
+            <a href="#" class="education-card">
+              <span class="education-code">MI</span>
+              <strong>MI-01</strong>
+              <small>Madrasah Ibtidaiyah</small>
+            </a>
+
+
+            <a href="#" class="education-card">
+              <span class="education-code">MI</span>
+              <strong>MI-02</strong>
+              <small>Madrasah Ibtidaiyah</small>
+            </a>
+
+
+            <a href="#" class="education-card">
+              <span class="education-code">MTs</span>
+              <strong>MTs</strong>
+              <small>Madrasah Tsanawiyah</small>
+            </a>
+
+
+            <a href="#" class="education-card">
+              <span class="education-code">MA</span>
+              <strong>MA</strong>
+              <small>Madrasah Aliyah</small>
+            </a>
+
+
+            <a href="#" class="education-card">
+              <span class="education-code">SMA</span>
+              <strong>SMA</strong>
+              <small>Sekolah Menengah Atas</small>
+            </a>
+
+
+            <a href="#" class="education-card">
+              <span class="education-code">SMK</span>
+              <strong>SMK</strong>
+              <small>Sekolah Menengah Kejuruan</small>
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           BERITA & KEGIATAN
+      ================================================== -->
+      <section class="news-section" id="berita">
+
+        <div class="container">
+
+          <div class="section-heading">
+
+            <div>
+              <span class="section-kicker">
+                <i class="fa-regular fa-newspaper"></i>
+                Informasi
+              </span>
+
+              <h2>Berita & Kegiatan</h2>
+            </div>
+
+            <a href="#" class="section-link">
+              Lihat Semua
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+
+          <div class="news-grid">
+
+
+            <!-- News 1 -->
+            <article class="news-card">
+
+              <div class="news-image">
+                <div class="image-placeholder">
+                  <i class="fa-regular fa-image"></i>
+                </div>
+
+                <span class="news-category">
+                  Kegiatan
+                </span>
+              </div>
+
+              <div class="news-content">
+
+                <div class="news-date">
+                  <i class="fa-regular fa-calendar"></i>
+                  12 Mei 2026
+                </div>
+
+                <h3>
+                  Kegiatan Keluarga Besar
+                  BP3MNU Mazra'atul Ulum
+                </h3>
+
+                <a href="#">
+                  Baca Selengkapnya
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </article>
+
+
+            <!-- News 2 -->
+            <article class="news-card">
+
+              <div class="news-image">
+                <div class="image-placeholder">
+                  <i class="fa-regular fa-image"></i>
+                </div>
+
+                <span class="news-category">
+                  Prestasi
+                </span>
+              </div>
+
+              <div class="news-content">
+
+                <div class="news-date">
+                  <i class="fa-regular fa-calendar"></i>
+                  8 Mei 2026
+                </div>
+
+                <h3>
+                  Siswa Meraih Prestasi
+                  Tingkat Kabupaten
+                </h3>
+
+                <a href="#">
+                  Baca Selengkapnya
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </article>
+
+
+            <!-- News 3 -->
+            <article class="news-card">
+
+              <div class="news-image">
+                <div class="image-placeholder">
+                  <i class="fa-regular fa-image"></i>
+                </div>
+
+                <span class="news-category">
+                  Akademik
+                </span>
+              </div>
+
+              <div class="news-content">
+
+                <div class="news-date">
+                  <i class="fa-regular fa-calendar"></i>
+                  5 Mei 2026
+                </div>
+
+                <h3>
+                  Pelaksanaan Kegiatan
+                  Akademik Sekolah
+                </h3>
+
+                <a href="#">
+                  Baca Selengkapnya
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           PROGRAM UNGGULAN
+      ================================================== -->
+      <section class="program-section">
+
+        <div class="container">
+
+          <div class="program-wrapper">
+
+            <div class="section-heading">
+
+              <div>
+                <span class="section-kicker">
+                  <i class="fa-solid fa-star"></i>
+                  Program
+                </span>
+
+                <h2>Program Unggulan</h2>
+              </div>
+
+              <a href="#" class="section-link">
+                Lihat Semua
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+            </div>
+
+
+            <div class="program-list">
+
+              <a href="#" class="program-item">
+                <i class="fa-solid fa-quran"></i>
+                <span>Tahfidz Al-Qur'an</span>
+              </a>
+
+              <a href="#" class="program-item">
+                <i class="fa-solid fa-language"></i>
+                <span>Bahasa Arab & Inggris</span>
+              </a>
+
+              <a href="#" class="program-item">
+                <i class="fa-solid fa-flask"></i>
+                <span>Sains & Teknologi</span>
+              </a>
+
+              <a href="#" class="program-item">
+                <i class="fa-solid fa-futbol"></i>
+                <span>Ekstrakurikuler</span>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           PRESTASI
+      ================================================== -->
+      <section class="achievement-section">
+
+        <div class="container">
+
+          <div class="section-heading">
+
+            <div>
+              <span class="section-kicker">
+                <i class="fa-solid fa-trophy"></i>
+                Prestasi
+              </span>
+
+              <h2>Prestasi Terbaru</h2>
+            </div>
+
+            <a href="#" class="section-link">
+              Semua Prestasi
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+
+          <div class="achievement-grid">
+
+            <article class="achievement-card">
+
+              <div class="achievement-icon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+
+              <div>
+                <span>Juara 1</span>
+
+                <h3>
+                  Lomba Pramuka
+                  Tingkat Kabupaten
+                </h3>
+
+                <small>
+                  Tahun 2026
+                </small>
+              </div>
+
+            </article>
+
+
+            <article class="achievement-card">
+
+              <div class="achievement-icon">
+                <i class="fa-solid fa-medal"></i>
+              </div>
+
+              <div>
+                <span>Juara 2</span>
+
+                <h3>
+                  Kompetisi Sains
+                  Madrasah
+                </h3>
+
+                <small>
+                  Tahun 2026
+                </small>
+              </div>
+
+            </article>
+
+
+            <article class="achievement-card">
+
+              <div class="achievement-icon">
+                <i class="fa-solid fa-award"></i>
+              </div>
+
+              <div>
+                <span>Juara 3</span>
+
+                <h3>
+                  Olimpiade Pendidikan
+                </h3>
+
+                <small>
+                  Tahun 2026
+                </small>
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           GALERI
+      ================================================== -->
+      <section class="gallery-section" id="galeri">
+
+        <div class="container">
+
+          <div class="section-heading">
+
+            <div>
+              <span class="section-kicker">
+                <i class="fa-regular fa-images"></i>
+                Dokumentasi
+              </span>
+
+              <h2>Galeri Kegiatan</h2>
+            </div>
+
+            <a href="#" class="section-link">
+              Lihat Semua
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+
+          <div class="gallery-grid">
+
+            <div class="gallery-item large">
+              <div class="gallery-placeholder">
+                <i class="fa-regular fa-image"></i>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <div class="gallery-placeholder">
+                <i class="fa-regular fa-image"></i>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <div class="gallery-placeholder">
+                <i class="fa-regular fa-image"></i>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <div class="gallery-placeholder">
+                <i class="fa-regular fa-image"></i>
+              </div>
+            </div>
+
+            <div class="gallery-item">
+              <div class="gallery-placeholder">
+                <i class="fa-regular fa-image"></i>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           PPDB CTA
+      ================================================== -->
+      <section class="ppdb-section" id="ppdb">
+
+        <div class="container">
+
+          <div class="ppdb-card">
+
+            <div>
+
+              <span class="ppdb-label">
+                Penerimaan Peserta Didik Baru
+              </span>
+
+              <h2>
+                Bergabung Bersama
+                Mazra'atul Ulum
+              </h2>
+
+              <p>
+                Informasi pendaftaran dan proses PPDB
+                tersedia secara online.
+              </p>
+
+            </div>
+
+            <a href="#" class="btn btn-white">
+              Daftar PPDB
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           PROFIL SINGKAT
+      ================================================== -->
+      <section class="profile-section" id="profil">
+
+        <div class="container">
+
+          <div class="profile-grid">
+
+            <div class="profile-image">
+              <div class="profile-placeholder">
+                <i class="fa-solid fa-school"></i>
+              </div>
+            </div>
+
+            <div class="profile-content">
+
+              <span class="section-kicker">
+                Tentang Kami
+              </span>
+
+              <h2>
+                BP3MNU
+                <br>
+                Mazra'atul Ulum
+              </h2>
+
+              <p>
+                BP3MNU Mazra'atul Ulum merupakan lembaga
+                pendidikan yang berkomitmen membangun generasi
+                berilmu, berakhlak dan berprestasi.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                Selengkapnya
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           KONTAK
+      ================================================== -->
+      <section class="contact-section" id="kontak">
+
+        <div class="container">
+
+          <div class="section-heading">
+
+            <div>
+              <span class="section-kicker">
+                <i class="fa-solid fa-location-dot"></i>
+                Hubungi Kami
+              </span>
+
+              <h2>Kontak & Lokasi</h2>
+            </div>
+
+          </div>
+
+
+          <div class="contact-grid">
+
+            <div class="contact-card">
+
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+
+              <div>
+                <strong>Alamat</strong>
+                <p>
+                  Paciran, Lamongan,
+                  Jawa Timur, Indonesia
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+              <div class="contact-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+
+              <div>
+                <strong>Telepon</strong>
+                <p>
+                  Informasi kontak lembaga
+                </p>
+              </div>
+
+            </div>
+
+
+            <div class="contact-card">
+
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+
+              <div>
+                <strong>Email</strong>
+                <p>
+                  Email lembaga
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- ===================================================
+         FOOTER
+    ==================================================== -->
+    <footer class="main-footer">
+
+      <div class="container">
+
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+
+            <div class="footer-logo">
+              <i class="fa-solid fa-school"></i>
+            </div>
+
+            <h3>
+              BP3MNU
+              <br>
+              MAZRA'ATUL ULUM
+            </h3>
+
+            <p>
+              Berilmu • Berakhlak • Berprestasi
+            </p>
+
+          </div>
+
+
+          <div class="footer-column">
+
+            <h4>Informasi</h4>
+
+            <a href="#profil">Profil</a>
+            <a href="#berita">Berita</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#galeri">Galeri</a>
+
+          </div>
+
+
+          <div class="footer-column">
+
+            <h4>Layanan</h4>
+
+            <a href="#ppdb">PPDB</a>
+            <a href="#">Akademik</a>
+            <a href="#">Pengumuman</a>
+            <a href="#">Layanan Surat</a>
+
+          </div>
+
+
+          <div class="footer-column">
+
+            <h4>Ikuti Kami</h4>
+
+            <div class="social-links">
+
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+          <span>
+            © 2026 BP3MNU Mazra'atul Ulum
+          </span>
+
+          <span>
+            Semua Hak Dilindungi
+          </span>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+    <!-- ===================================================
+         MOBILE BOTTOM NAVIGATION
+    ==================================================== -->
+    <nav class="mobile-bottom-nav">
+
+      <a href="#beranda" class="bottom-nav-item active">
+
+        <i class="fa-solid fa-house"></i>
+
+        <span>Beranda</span>
+
+      </a>
+
+
+      <a href="#berita" class="bottom-nav-item">
+
+        <i class="fa-regular fa-newspaper"></i>
+
+        <span>Info</span>
+
+      </a>
+
+
+      <a href="#ppdb" class="bottom-nav-item">
+
+        <i class="fa-solid fa-user-plus"></i>
+
+        <span>PPDB</span>
+
+      </a>
+
+
+      <a href="#galeri" class="bottom-nav-item">
+
+        <i class="fa-regular fa-images"></i>
+
+        <span>Galeri</span>
+
+      </a>
+
+
+      <a href="#" class="bottom-nav-item">
+
+        <i class="fa-regular fa-user"></i>
+
+        <span>Akun</span>
+
+      </a>
+
+    </nav>
+
+  </div>
+
+
+  <!-- JavaScript -->
+  <?!= include('Script'); ?>
+
+</body>
+</html>
